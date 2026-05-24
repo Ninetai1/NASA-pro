@@ -1,4 +1,7 @@
 require('dotenv').config();
+const crypto = require('crypto');
+global.crypto = crypto;
+
 const  request = require('supertest');
 const app = require('../../app');
 const { mongoConnect,mongoDisconnect } = require('../../services/mongo');
