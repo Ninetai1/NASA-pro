@@ -1,0 +1,7 @@
+
+> nasa@1.0.0 start
+> node src/server.js
+
+MongoDB connection ready!
+Data loading complete! 8 planets found.
+Server is running on port 8000
