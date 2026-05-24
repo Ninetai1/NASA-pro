@@ -6,6 +6,8 @@ on:
     branches: [ main ]
 jobs:
   build:
+    env:
+      CI: true
     runs-on: ubuntu-latest
     strategy:
       matrix:
